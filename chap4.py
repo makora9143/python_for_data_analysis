@@ -11,7 +11,7 @@ import numpy as np
 # The NumPy ndarray: A Multidimensional Array Object
 # Slide No.5
 data = np.array([[0.9526, -0.246, -0.8856],
-                      [0.5639, 0.2379, 0.9104]])
+                 [0.5639, 0.2379, 0.9104]])
 
 print data
 print data * 10
