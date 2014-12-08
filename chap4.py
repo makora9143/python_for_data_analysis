@@ -48,4 +48,15 @@ arr2 = np.array([1, 2, 3], dtype=np.int32)
 
 print arr1.dtype
 print arr2.dtype
+
+arr = np.array([1, 2, 3, 4, 5])
+print arr.dtype
+
+# cast
+float_arr = arr.astype(np.float64)
+print float_arr.dtype
+
+arr = np.array([3.7, -1.2, -2.6, 0.5, 12.9, 10.1])
+print arr
+print arr.astype(np.int32)
 # End of Line.
