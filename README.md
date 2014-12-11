@@ -7,5 +7,5 @@ O'REILLYのPython for Data Analysisの輪講資料
 [第一章 + Git](http://www.slideshare.net/makotokawano12/python-for-data-analysisgit)
 
 ## 第二回資料
-[]()
+[第二章](http://www.slideshare.net/ymk0424/2kaime)
 [第４，５章](http://www.slideshare.net/makotokawano12/python-for-data-anaysis)
