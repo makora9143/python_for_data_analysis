@@ -1,11 +1,1 @@
-python_for_data_analysis
-========================
-
-O'REILLYのPython for Data Analysisの輪講資料
-
-## 第一回資料
-[第１章 + Git](http://www.slideshare.net/makotokawano12/python-for-data-analysisgit)
-
-## 第二回資料
-[第２，３章](http://www.slideshare.net/ymk0424/2kaime)
-[第４，５章](http://www.slideshare.net/makotokawano12/python-for-data-anaysis)
+# pull request 2014.12.19
