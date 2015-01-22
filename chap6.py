@@ -1,13 +1,11 @@
-## 
-# import pandas as pd
-# !cat ch06/ex1.csv
-# df = pd.read_csv('ch06/ex1.csv')
-# pd.read_table('ch06/ex1.csv', sep=',')
-# pd.read_csv('ch06/ex2.csv', header=None)
+import pandas as pd
+df = pd.read_csv('../pydata-book/ch06/ex1.csv')
+pd.read_table('../pydata-book/ch06/ex1.csv', sep=',')
+pd.read_csv('../pydata-book/ch06/ex2.csv', header=None)
 
-# names = ['a', 'b', 'c', 'd', 'message'] 
-# pd.read_csv('ch06/ex2.csv', names=names, index_col='message') 
- 
+# names = ['a', 'b', 'c', 'd', 'message']
+# pd.read_csv('ch06/ex2.csv', names=names, index_col='message')
+
 ## slide No.8
 # list(open('ch06/ex3.txt'))
 # result = pd.read_table('ch06/ex3.txt', sep='\s+')
@@ -34,18 +32,18 @@
 ## slide No.17
 # lnk = links[28]
 # lnk.get('href')
-# lnk.text_content() 
-# urls = [lnk.get('href') for lnk in doc.findall('.//a')] 
+# lnk.text_content()
+# urls = [lnk.get('href') for lnk in doc.findall('.//a')]
 # urls[-10:]
 
 ## find table Slide no.18
-# tables = doc.findall('.//table') 
+# tables = doc.findall('.//table')
 # calls = tables[1]
-# puts = tables[2] 
-# rows = calls.findall('.//tr') 
+# puts = tables[2]
+# rows = calls.findall('.//tr')
 # def _unpack(row, kind=‘td’):
 # 	elts = row.findall(‘.//%s’ % kind)
-# 	return [val.text_content() for val in elts] 
+# 	return [val.text_content() for val in elts]
 # _unpack(rows[0], kind='th')
 # _unpack(rows[1], kind='td')
 
